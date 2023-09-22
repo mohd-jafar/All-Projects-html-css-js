@@ -1,0 +1,81 @@
+/* 1. */
+/* Universal Selector */
+/* The universal selector (*) selects all HTML elements on the page. */
+*{ 
+    color:  blue;
+    background-color: palegreen;
+    font-size: larger;
+
+}
+
+/* 2 */
+/* Element Selector */
+/* The element selector selects HTML elements based on the element name. */
+h4{
+    color: red;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+/* 3 */
+/* Class Selector */
+/* The class selector selects HTML elements with a specific class attribute.
+
+To select elements with a specific class, write a period (.) character, followed by the class name. */
+.first{
+    text-align: center;
+    color: purple;
+    font-size: inherit;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: azure;
+}
+
+/* 4. */
+#abc{
+    text-align: end;
+    color: violet;
+    text-decoration-line: overline;
+}
+
+#text{   
+    color: tomato;
+}
+.letter{
+    color: teal;
+
+}
+p{
+    color: black;
+
+}
+/* 7 */
+div{
+    background-color: sienna;
+}
+
+div:hover{
+background-color: red;
+}
+
+/* 8 */
+#text1::first-letter{
+    color: orange;
+}
+
+h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color: red;
+}
+
+
+#one{
+    background-color: blue;
+}
+.two{
+    background-color: brown ;
+}
+/* p{ */
+    background-color: yellow !important;
+}
+    
