@@ -1,0 +1,117 @@
+*{
+    text-align: center;
+}
+
+
+.main{
+     width: 100%;
+     height: 700px;
+     display: grid;
+     grid-template-columns: 200px 1fr;
+     grid-template-rows: 100px 1fr 100px;
+     grid-gap:5px;
+
+     border-radius: 15px;
+
+     font-size: 25px;
+     /* border: 2px solid black; */
+
+
+     /* display: flex;
+     justify-content: center;
+     align-content: center; */
+     
+     /* column-gap: 5px; */
+}
+
+#one{
+    /* width: 100PX;
+    height: 100px; */
+    background-color: aqua;
+    grid-column-start: 1;
+    grid-column-end: 2;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 15px;
+    border: 2px solid black;
+
+
+
+
+
+
+
+
+
+
+    
+
+    /* text-align: center; */
+
+    
+}
+
+#one1{
+    /* width: 100;
+    height: 100px; */
+    background-color: lightblue;
+    grid-column-start: 2;
+    grid-column-end: 3;
+
+    grid-row-start: 1;
+    grid-row-end: 3;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    border-radius: 15px;
+    border: 2px solid black;
+
+}
+
+#one2{
+    /* width: 100PX;
+    height: 100px; */
+    background-color: lightgreen;
+    
+    grid-column-start: 1;
+    grid-column-end: 2;
+
+    grid-row-start: 2;
+    grid-row-end: 4;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    border-radius: 15px;
+    border: 2px solid black;
+
+    
+}
+
+#one3{
+    /* width: 100PX;
+    height: 100px; */
+    background-color: lightyellow;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    
+    grid-row-start: 3;
+    grid-row-end: 4;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 15px;
+    border: 2px solid black;
+
+}
+
+
