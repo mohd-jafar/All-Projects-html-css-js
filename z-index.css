@@ -1,0 +1,116 @@
+*{
+    margin: 1px;
+    padding: 1px;
+    box-sizing: border-box;
+    /* border: 1px solid rgb(66, 66, 163); */
+}
+
+/* .checking{
+    width: 90%;
+    border: 1px solid black;
+    height: 700px;
+    display: flex;
+    flex-wrap: wrap;
+} */
+/* body{
+    border: 3px solid rgb(96, 96, 213);
+    margin: 100px;
+} */
+/* 
+
+
+.firstdiv{
+    width: 800px;
+    height: 00vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.image1{
+    position: absolute;
+top: 20px;
+    z-index: 1;
+}
+
+.image2{
+    position: absolute;
+top: 30px;
+left: 20px;
+    z-index: 2;
+}
+
+.image3{
+    position: absolute;
+    top: 90px;
+    left: 10px;
+
+    z-index: 3;
+} */
+
+.firstSec{
+    width: 80%;
+    /* border: 1px solid red; */
+    margin-inline: auto;
+    height: 400px;
+    display: flex;
+}
+.firstSec .left{
+    width: 50%;
+    /* border: 1px solid black; */
+    height: 350px;
+    padding: 150px;
+
+
+    
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+
+}
+.firstSec .right{
+    width: 50%;
+    /* border: 1px solid rgb(24, 208, 0); */
+    height: 350px;
+    position: relative;
+}
+.firstSec .right img{
+    width: 200px;
+    height: 250px;
+    position: absolute;
+    object-fit: contain;
+}
+
+.firstSec .right .image1{
+    z-index: 1;
+}
+
+.firstSec .right .image2{
+
+
+    left: 168px;
+    z-index: 2;
+    top: 30px;
+}
+
+.firstSec .right .image3{
+    /* top: 100px;
+    left: 10px;
+    z-index: 3; */
+
+
+    top: 122px;
+    left: 15px;
+    z-index: 3;
+}
+
+
+.change{
+    color: red;
+}
+
+#jfor{
+    margin-left: 150px;
+}
