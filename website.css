@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Cardo', serif;
+    background-color: #1B3764;
+   /*  font-family: 'Inter', sans-serif; */
+}
+
+nav{
+    width: 100%; 
+    height: 100px;
+    background-color: #1B3764;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+nav #logo{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    color: #ffffff;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.75rem;
+    font-weight: 700;
+}
+#navitems{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+#navitems a{
+    text-decoration: none; 
+    color: #ffffff; 
+    font-size: 1.063rem; 
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+}
+a#home{
+    color: #FFCA42;
+    font-weight: 700;
+}
+#navitems a:hover{
+    color: #FFCA42;
+}
+#navbtn{
+    background-color: #FFCA42;
+    font-family: 'Cardo', serif;
+    color: #1B3764;
+    font-size: 1.188rem;
+    font-weight: 700;
+    padding: 10px 20px;
+    border: none;
+    text-transform: capitalize;
+}
+#navbtn:hover{
+    background-color: #fff;
+    /* border: 1px solid #1B3764; */
+    color: #FFCA42;
+}
+
+/* hero section starts */
+
+#hero{
+    padding: 0 180px;
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+}
+#textblock{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+}
+#textblock h1{
+    font-family: 'Cardo',serif;
+    font-size: 3.063rem;
+    color: #fff;
+    font-weight: 700;
+    line-height: 1;
+    margin-bottom: 25px;
+}
+
+#textblock p{
+    color: rgba(226, 221, 221,0.5);
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+img{
+    width: 100%;
+} 
+/* add image full width of 100% */
+#imageblock img{
+  width: 350px;
+  /* height: 450px; remove height to make image looks perfect. */
+}
+#btnsection {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+#btnsection a{
+    color: #fff;
+    text-transform: capitalize;
+}
+#btnsection button{
+    background-color: #FFCA42;
+    font-family: 'Cardo', serif;
+    color: #1B3764;
+    font-size: 1.188rem;
+    font-weight: 700;
+    padding: 10px 20px;
+    border: none;
+    text-transform: capitalize;
+}
+/* hero section ends */
