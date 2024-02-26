@@ -1,0 +1,92 @@
+/*    **** RELATIVE UNITS *****
+
+
+       1. PERCENTAGE(%)
+parent and child ,here child follow parent , RELATIVE UNIT */
+
+/* main{
+    border: 5px solid blue;
+    width: 50%;
+    
+}
+
+section{
+    border: 5px dashed red;
+    width: 70%;
+} */
+
+
+       /* 2. EM */
+       /* EM is relative to parent, bydefault parent is 2em, 2em = 32px */
+
+ 
+/* main{
+   
+    border: 5px solid blue;
+    width: 50vw;
+} */
+
+/* header{
+    font-size: 1em;
+} */
+
+/* OP: Header = 1em = 16px, h1 = 1em = 16px => 16px +16px = 32px */
+/* if directly given t h1 same OP */
+
+/* section{
+    border: 5px dashed red;
+    width: 70vw;
+}       */
+
+
+/* 3. REM */
+/* relative to root(html)  i.e. 1em and given value eg,. 1em * 3rem(any value) */
+/* 1rem = 16px , 1.4rem .....  */
+
+main{
+   
+    border: 5px solid blue;
+    width: 50vw;
+}
+
+section{
+    border: 5px dashed red;
+    width: 70vw;
+}  
+
+/* header{
+    font-size: 1rem;
+} */
+
+/* h1{
+    font-size: 10vw;
+} */
+
+
+
+
+
+/*          ****ABSOLUTE UNITS****      */
+
+/* VW 
+uses veiwport or screen,child and parent follow only veiw port , ABSOLUTE UNIT , no following , */
+/* don't use absolute units in font size */
+/* use EM(RELATIVE UNIT) */
+/* 
+main{
+   
+    border: 5px solid blue;
+    width: 50vw;
+    
+    
+}
+
+section{
+    border: 5px dashed red;
+    width: 70vw;
+} */
+
+
+/* and px */
+
+
